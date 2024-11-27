@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px;
+}
+
+.category-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.category-item {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.category-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product-details img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
